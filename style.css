@@ -123,6 +123,7 @@ header nav a {
 .sec2_container_card img{
     width: 100%;
     transition: 1s;
+    height: 300px;
 }
 
 .sec2_img_cont{
@@ -254,7 +255,7 @@ header nav a {
     background-color: red;
     width: 200px;
     height: 40px;
-    margin-left: 40% ;
+    margin-left: 43% ;
     color: white;
     margin-bottom: 100px;
     transition: 1s;
