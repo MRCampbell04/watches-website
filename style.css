@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+   
 }
 button{
     border: none;
@@ -10,8 +11,9 @@ button{
 }
 header{
     display: flex;
+    background-color: grey;
     align-items: center;
-    padding: 10px ;
+    /* padding: 10px ; */
 }
 header h2{
     font-size: 30px;
@@ -24,7 +26,20 @@ header h2 span{
 header nav {
     width: 80%;
     display: flex;
+    background-color: grey;
     justify-content: space-evenly;
+}
+.nav_links_cont{
+    padding: 10px;
+    transition: 1s;    
+    
+}
+.nav_links{
+    transition: 0s;
+}
+.nav_links_cont:hover {
+    background-color: #FF2020;
+    .nav_links{color: white;}
 }
 
 header nav a {
@@ -34,6 +49,7 @@ header nav a {
     text-transform: capitalize;
     font-weight: 600;
 }
+
 
 /* ==================================================== */
 
