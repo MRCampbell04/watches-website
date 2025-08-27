@@ -20,6 +20,7 @@ header{
     z-index: 1000;
     display: flex;
     background-color: grey;
+    padding-left: 10px;
   
     align-items: center;
     /* padding: 10px ; */
@@ -31,15 +32,24 @@ header h2{
 header h2 span{
     color: #FF2020;
 }
-
+.search_bar{
+    height: 30px;
+    width: 300px;
+    margin-top: 12px;
+    border-radius: 15px;
+}
 header nav {
     width: 80%;
     display: flex;
+    align-content: center;
     background-color: grey;
     justify-content: space-evenly;
 }
 .nav_links_cont{
-    padding: 10px;
+   
+    
+    padding:15px 10px 15px 10px ;
+    
     transition: 1s;    
     
 }
