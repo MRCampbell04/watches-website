@@ -29,7 +29,7 @@ header{
     /* padding: 10px ; */
 }
 header h2{
-    font-size: 30px;
+    font-size: 3vw;
     color: #2A4B7C;
 }
 
@@ -44,8 +44,8 @@ header h2 span{
     background: #EDF2F6;
     border-radius:5px;
     padding: 8px 15px;
-    margin-right: 20px;
-    left: 90px;
+    left: 1%;
+   
 }
 
 .search_box input {
@@ -54,11 +54,12 @@ header h2 span{
     outline: none;
     padding: 5px;
     
-    width: 220px;
+    width: 15vw;
 }
 header nav {
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
     align-content: center;
     
     
@@ -83,7 +84,7 @@ header nav {
 header nav a {
     text-decoration: none;
     color: black;
-    font-size: 22px;
+    font-size: 1.5vw;
     text-transform: capitalize;
     font-weight: 600;
 }
@@ -109,10 +110,11 @@ header nav a {
     display: flex; 
     flex-direction: column;
     gap: 15px;
+    
 }
 
 .sec1_l h1 {
-    font-size: 40px;
+    font-size: 3vw;
     color: #0B1C39;
 }
 
@@ -121,7 +123,7 @@ header nav a {
     font-weight: 600;
     width: 75%;
     margin: auto;
-    font-size: 18px;
+    font-size: 1.5vw;
 }
 
 .sec1_l button{
@@ -132,7 +134,7 @@ header nav a {
     background-color: #2A4B7C;
 
     color: white;
-    font-size: 16px;
+    font-size: 1vw;
     font-weight: 700;
     border: none;
     border-radius: 7px;
@@ -140,7 +142,7 @@ header nav a {
 }
 
 .sec1_l button:hover{
-    background-color: #2A4B7C;
+    background-color: grey;
     cursor: pointer;
 }
 
@@ -152,10 +154,10 @@ header nav a {
 }
 
 .sec1_r img{
-    width: 72%;
-    height: 700px;
-    /* height: 100%; */
-    object-fit: cover;
+    width: 70%;
+    /* height: 700px; */
+    height: 100%; 
+    object-fit:contain;
 }
 
 /* =================================== */
@@ -165,7 +167,7 @@ header nav a {
 }
 
 .sec2 h2 {
-    font-size: 30px;
+    font-size: 2vw;
     color: #0B1C39;
 }
 
@@ -195,10 +197,10 @@ header nav a {
 }
 
 .sec2_container_card h3{
-    font-size: 22px;
+    font-size: 2vw;
 }
 .sec2_container_card h4{
-    font-size: 20px;
+    font-size: 1.5vw;
     color: #2A4B7C;
 }
 
