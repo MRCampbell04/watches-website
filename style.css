@@ -29,7 +29,7 @@ header{
     /* padding: 10px ; */
 }
 header h2{
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: #2A4B7C;
 }
 
@@ -44,7 +44,7 @@ header h2 span{
     background: #EDF2F6;
     border-radius:5px;
     padding: 8px 15px;
-    left: 1%;
+    left: 4%;
    
 }
 
