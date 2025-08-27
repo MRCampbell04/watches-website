@@ -2,11 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
    
 }
 body{
     overflow-x: hidden;
+    background-color: #F8F9FA;
+    color: #2B2D42;
 }
 
 
@@ -19,7 +22,7 @@ header{
     top: 0px;
     z-index: 1000;
     display: flex;
-    background-color: grey;
+    background-color: white;
     padding-left: 10px;
   
     align-items: center;
@@ -27,22 +30,38 @@ header{
 }
 header h2{
     font-size: 30px;
+    color: #2A4B7C;
 }
 
 header h2 span{
-    color: #FF2020;
+    color: #C8A97E;
 }
-.search_bar{
-    height: 30px;
-    width: 300px;
-    margin-top: 12px;
-    border-radius: 15px;
+.search_box {
+    display: flex;
+    align-items: center;
+    position: relative;
+   
+    background: #EDF2F6;
+    border-radius:5px;
+    padding: 8px 15px;
+    margin-right: 20px;
+    left: 90px;
+}
+
+.search_box input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 5px;
+    
+    width: 220px;
 }
 header nav {
     width: 80%;
     display: flex;
     align-content: center;
-    background-color: grey;
+    
+    
     justify-content: space-evenly;
 }
 .nav_links_cont{
@@ -57,8 +76,8 @@ header nav {
     transition: 0s;
 }
 .nav_links_cont:hover {
-    background-color: #FF2020;
-    .nav_links{color: white;}
+    background-color: #2A4B7C;
+    .nav_links{color: #F5F0F6;}
 }
 
 header nav a {
@@ -80,7 +99,7 @@ header nav a {
 .sec1{
     display: flex;
     align-items: center;
-    background-color: #F0F0F2;
+    background-color: #F5F0F6;
     /* height: 700px; */
 }
 
@@ -109,7 +128,9 @@ header nav a {
     margin: auto;
     width: 20%;
     padding: 15px 0px;
-    background-color: #4A4A4B;
+    /* background-color: #4A4A4B; */
+    background-color: #2A4B7C;
+
     color: white;
     font-size: 16px;
     font-weight: 700;
@@ -119,7 +140,7 @@ header nav a {
 }
 
 .sec1_l button:hover{
-    background-color: #FF2020;
+    background-color: #2A4B7C;
     cursor: pointer;
 }
 
@@ -178,7 +199,7 @@ header nav a {
 }
 .sec2_container_card h4{
     font-size: 20px;
-    color: #FF2020;
+    color: #2A4B7C;
 }
 
 /* ======================== */
@@ -276,7 +297,7 @@ header nav a {
     transform: translate(-50% 0);
     width: 100%;
     transition: 1s;
-    background-color: red;
+    background-color: #2A4B7C;
     cursor: pointer;
     height: 30px;
 
@@ -291,7 +312,7 @@ header nav a {
     position: absolute;
 }
 .midbutton{
-    background-color: red;
+    background-color: #2A4B7C;
     width: 200px;
     height: 40px;
     margin-left: 43% ;
@@ -333,7 +354,7 @@ header nav a {
 }
 .sec5_button{
     color: white;
-    background-color: red;
+    background-color: #2A4B7C;
     border-radius: 5px;
     width: 150px;
     height: 40px;
@@ -350,7 +371,7 @@ header nav a {
 }
 /* ================================================ */
 .sec6_container{
-    background-color: red;
+    background-color: #2A4B7C;
     color: white;
     padding: 70px 30px;
     padding-top: 40px;
