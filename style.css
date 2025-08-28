@@ -24,7 +24,7 @@ header{
     display: flex;
     background-color: white;
     padding-left: 10px;
-  
+    
     align-items: center;
     /* padding: 10px ; */
 }
@@ -185,7 +185,7 @@ header nav a {
 .sec2_container_card img{
     width: 100%;
     transition: 1s;
-    height: 300px;
+    height: 35vh;
 }
 
 .sec2_img_cont{
@@ -209,7 +209,7 @@ header nav a {
 .sec3{
     display: flex;
     gap: 7px;
-    height: 600px;
+    height: 45vw;
     margin: 50px 0px;
 }
 .sec3_img_cont{
@@ -255,14 +255,19 @@ header nav a {
     
     text-align: center;
 }
+.sec4{
+    margin-right:5vw ;
+    margin-bottom: 30vh;
+}
 .sec4_container{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
    /* border: #0B1C39 3px solid; */
     
-    height: 700px;
-    margin: 50px 0px;
+    height: 75vh;
+    margin: 50px 3vw;
+    
      justify-content: space-evenly;
      align-items:center;
      gap: 20px;
@@ -271,21 +276,24 @@ header nav a {
 
 .sec4_card{
     width: 30%;
-    height: 300px;
+    height: 40vh;
     /* border:red solid 2px ; */
     position: relative;
      overflow: hidden;
+     
     
 
 }
+
 .sec4_img_cont img{
     /* border:black solid 10px ; */
     /* margin-left: 15%; */
     object-fit: cover;
     width: 100%;
-    height: 250px;
+    height: 30vh;
     position: relative;
     transition: 1s;
+    object-fit:fill;
     
 }
 
@@ -294,18 +302,18 @@ header nav a {
 }
 .sec4_card button{
     position: absolute;
-    bottom: 20px;
+    bottom: 5vh;
     left: 0px;
     transform: translate(-50% 0);
     width: 100%;
     transition: 1s;
     background-color: #2A4B7C;
     cursor: pointer;
-    height: 30px;
+    height: 6vh;
 
 }
 .sec4_card:hover button{
-    bottom: 40px ;
+    bottom: 9vh ;
 }
 .hide{
     z-index: 5;
@@ -313,14 +321,20 @@ header nav a {
     width: 100%;
     position: absolute;
 }
+.midbutton_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .midbutton{
     background-color: #2A4B7C;
     width: 200px;
     height: 40px;
-    margin-left: 43% ;
+    
     color: white;
     margin-bottom: 100px;
     transition: 1s;
+    margin-top: 10vh;
 
 }
 .midbutton:hover{
@@ -334,7 +348,7 @@ header nav a {
     flex-direction: column;
     align-content: space-between;
     justify-content: center;
-    height: 400px;
+    height: 60vh;
     
     
     flex-wrap: wrap;
@@ -343,7 +357,7 @@ header nav a {
 }
 .sec5_cont1{
     width: 50%;
-    margin-left: 50px;
+    margin-left: 3vw;
     /* border: #0B1C39 2px solid ; */
     
 }
@@ -377,10 +391,12 @@ header nav a {
     color: white;
     padding: 70px 30px;
     padding-top: 40px;
-    margin: 30px;
+    margin-left: 3vw;
+    margin-right:3vw ;
     border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
+    height: fit-content;
 }
 .sec6_content{
     width: 30%;
