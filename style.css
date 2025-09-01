@@ -57,14 +57,23 @@ header h2 span{
     width: 15vw;
 }
 header nav {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
     
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.nav_list {
+    width: 58vw;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
     
     justify-content: space-evenly;
 }
+
 .nav_links_cont{
    
     
